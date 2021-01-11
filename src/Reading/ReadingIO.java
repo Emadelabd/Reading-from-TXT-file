@@ -24,7 +24,8 @@ public class ReadingIO {
             BufferedReader br=new BufferedReader(Im);
             System.out.println("Text from File is as Follows..");
            
-            for(int i=0;i<100;i++){
+            for(int i=0;i<100;i++)
+{
                 int j=0;
                 String text=br.readLine();
                 StringTokenizer st=new StringTokenizer(text,",");
